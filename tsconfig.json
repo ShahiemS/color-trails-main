@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "target": "es6",
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "moduleResolution":"node",
+    "paths": {
+      "@src/*": [
+        "*"
+      ],
+      "@engine/*": [
+        "engine/*"
+      ],
+      "@core/*": [
+        "engine/core/*"
+      ],
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
